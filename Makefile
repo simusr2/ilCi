@@ -3,7 +3,7 @@ TARGETS = 01.HelloWorld 02.InputOutput
 .PHONY: all clean
 
 %.out: %.c
-	gcc -o $@ $<
+	gcc -Wall -pedantic -o $@ $<
 
 all: $(TARGETS)
 
