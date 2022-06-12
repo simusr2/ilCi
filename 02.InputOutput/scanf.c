@@ -8,7 +8,7 @@
  * 02.InputOutput/scanf.c
  * 
  * gcc -Wall -o scanf.out scanf.c
- * ./helloputs.out
+ * ./scanf.out
  * or
  * echo "2" | ./scanf.out
  * (Replace 2 with any number)
